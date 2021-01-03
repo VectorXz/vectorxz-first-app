@@ -16,7 +16,7 @@ module.exports = ({ app }) => {
   app.on("push", async (context) => {
     // Code was pushed to the repo, what should we do with it?
     app.log.info(context);
-    app.log.info("Code pushed!")
+    app.log.info("New Code pushed!")
   });
 
   // For more information on building apps:
